@@ -5,7 +5,7 @@ FROM amazoncorretto:21.0.2
 WORKDIR /app
 
 # Копируем JAR-файл приложения в контейнер
-COPY target/aws-loading-demo     /app/app.jar
+COPY target/aws-loading-demo-0.0.1-SNAPSHOT.jar     /app/app.jar
 
 # Указываем порт, который будет использоваться приложением
 EXPOSE 8080
